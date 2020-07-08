@@ -10,13 +10,13 @@ echo "/_/   \_\ .__/| .__/|_|  \___/ \_/ \___|_|  |___/"
 echo "        |_|   |_|                                "
 
 echo "                                                 "
-echo "Install Xfce4. OK? [Y/n]"
+echo "Install Gnome. OK? [Y/n]"
 read ANS
 
 case $ANS in 
  "" | [Yy]* )
      echo "start install..."
-     apt install -y xfce4
+     apt install -y ubuntu-desktop
      echo "Reboot..."
      sleep 10
      reboot

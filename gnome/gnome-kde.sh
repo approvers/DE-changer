@@ -10,7 +10,7 @@ echo "/_/   \_\ .__/| .__/|_|  \___/ \_/ \___|_|  |___/"
 echo "        |_|   |_|                                "
 
 echo "                                                 "
-echo "Install Xfce4. OK? [Y/n]"
+echo "Install KDE. OK? [Y/n]"
 read ANS
 
 case $ANS in 

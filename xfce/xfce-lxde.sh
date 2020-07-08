@@ -10,13 +10,13 @@ echo "/_/   \_\ .__/| .__/|_|  \___/ \_/ \___|_|  |___/"
 echo "        |_|   |_|                                "
 
 echo "                                                 "
-echo "Install Xfce4. OK? [Y/n]"
+echo "Install Lxde. OK? [Y/n]"
 read ANS
 
 case $ANS in 
  "" | [Yy]* )
      echo "start install..."
-     apt install -y xfce4
+     apt install -y lxde lxde-common lxde-core lxde-icon-theme lxde-settings-daemon
      echo "Reboot..."
      sleep 10
      reboot
