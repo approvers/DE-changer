@@ -16,7 +16,7 @@ read ANS
 case $ANS in 
  "" | [Yy]* )
      echo "start install..."
-     apt install -y xubuntu-decktop
+     apt install -y xfce4
      echo "Reboot..."
      reboot
      exit 0
