@@ -18,6 +18,7 @@ case $ANS in
      echo "start install..."
      apt install -y xfce4
      echo "Reboot..."
+     sleep 10
      reboot
      exit 0
      ;;

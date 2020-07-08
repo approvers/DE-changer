@@ -16,8 +16,9 @@ read ANS
 case $ANS in 
  "" | [Yy]* )
      echo "start install..."
-     apt install -y xfce4
+     apt install -y kubuntu-desktop
      echo "Reboot..."
+     sleep 10
      reboot
      exit 0
      ;;
